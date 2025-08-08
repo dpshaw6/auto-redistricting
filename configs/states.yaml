@@ -1,0 +1,33 @@
+OR:
+  name: Oregon
+  fips: "41"
+  districts_congress: 6
+  pop_tolerance: 0.005   # ±0.5%
+  weights:
+    compactness: 1.0
+    county_splits: 1.0
+    coi: 0.5
+    vra: 1.0
+    competitiveness: 0.0
+NY:
+  name: New York
+  fips: "36"
+  districts_congress: 26
+  pop_tolerance: 0.005
+  weights:
+    compactness: 1.0
+    county_splits: 1.0
+    coi: 1.0
+    vra: 1.0
+    competitiveness: 0.3
+TX:
+  name: Texas
+  fips: "48"
+  districts_congress: 38
+  pop_tolerance: 0.005
+  weights:
+    compactness: 1.0
+    county_splits: 0.8
+    coi: 0.5
+    vra: 1.5
+    competitiveness: 0.0
