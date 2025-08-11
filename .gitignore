@@ -1,1 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/                 # All raw and output census data
+!data/README.md       # Keep a placeholder readme if you want
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
+
+# Temporary / cache
+tmp/
+cache/
 

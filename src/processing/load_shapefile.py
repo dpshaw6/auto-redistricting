@@ -1,4 +1,4 @@
-import geopandas as gpd
+import geopandas as gpd # type: ignore
 from pathlib import Path
 
 def load_districts(shapefile_path):
